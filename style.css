@@ -1,3 +1,15 @@
 html {
+	background-color: gray;
+}
+
+header {
+	background-color: lightcoral;
+}
+
+main {
+	background-color: lightgreen;
+}
+
+footer {
 	background-color: lightblue;
 }
