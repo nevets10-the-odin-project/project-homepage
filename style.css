@@ -44,3 +44,18 @@ footer {
 .project div {
 	padding: 0 2rem 0 2rem;
 }
+
+.contact-info {
+	display: flex;
+}
+
+.contact-info img {
+	flex: auto;
+	max-width: 250px;
+}
+
+.contact-details {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
