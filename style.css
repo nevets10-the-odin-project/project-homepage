@@ -12,6 +12,13 @@ body > * {
 
 header {
 	background-color: lightcoral;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+header picture img {
+	max-width: 300px;
 }
 
 main {
@@ -23,6 +30,23 @@ footer {
 	background-color: lightblue;
 	margin: 2rem 0 0 0;
 	padding: 1rem 2rem 2rem 2rem;
+}
+
+.me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.me h2 {
+	position: absolute;
+	top: 17rem;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 0 0.5rem;
+	max-width: fit-content;
+	border-radius: 5px;
+	font-size: 48px;
 }
 
 .projects {
