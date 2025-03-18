@@ -25,6 +25,10 @@ footer {
 	padding: 1rem 2rem 2rem 2rem;
 }
 
+i {
+	font-size: 32px;
+}
+
 .projects {
 	display: flex;
 	flex-wrap: wrap;
@@ -57,6 +61,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 	max-width: 300px;
+}
+
+.social {
+	display: flex;
+	gap: 2rem;
 }
 
 @media (max-width: 595px) {
