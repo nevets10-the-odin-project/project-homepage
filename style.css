@@ -2,6 +2,10 @@ html {
 	background-color: gray;
 }
 
+body {
+	margin: 0;
+}
+
 body > * {
 	margin: 0 2rem 0 2rem;
 }
@@ -12,10 +16,13 @@ header {
 
 main {
 	background-color: lightgreen;
+	margin-bottom: 2rem;
 }
 
 footer {
 	background-color: lightblue;
+	margin: 2rem 0 0 0;
+	padding: 1rem 2rem 2rem 2rem;
 }
 
 .projects {
