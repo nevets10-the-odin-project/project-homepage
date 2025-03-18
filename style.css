@@ -13,3 +13,23 @@ main {
 footer {
 	background-color: lightblue;
 }
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.project {
+	background-color: aqua;
+	max-width: 250px;
+}
+
+.project img {
+	object-fit: cover;
+	width: 250px;
+}
+
+.project div {
+	padding: 0 2rem 0 2rem;
+}
