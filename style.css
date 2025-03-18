@@ -50,7 +50,6 @@ footer {
 }
 
 .contact-info img {
-	flex: auto;
 	max-width: 250px;
 }
 
@@ -58,4 +57,24 @@ footer {
 	display: flex;
 	flex-direction: column;
 	max-width: 300px;
+}
+
+@media (max-width: 595px) {
+	/* Mobile */
+	footer {
+		margin: 0;
+		padding: 0;
+	}
+
+	.contact-info {
+		display: block;
+	}
+
+	.contact-details {
+		padding: 2rem;
+	}
+
+	.contact-info img {
+		max-width: 100vw;
+	}
 }
