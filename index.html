@@ -73,7 +73,11 @@
 					<p>fake@email.com</p>
 				</div>
 				<div>
-					<img src="./images/image.jpg" alt="Nevets" />
+					<picture>
+						<source media="(max-width: 877px)" srcset="./images/image-sm.jpg" />
+						<source media="(min-width: 878px)" srcset="./images/image.jpg" />
+						<img src="./images/image.jpg" alt="Nevets" />
+					</picture>
 				</div>
 			</div>
 		</footer>
