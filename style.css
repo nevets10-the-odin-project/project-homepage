@@ -2,6 +2,10 @@ html {
 	background-color: gray;
 }
 
+body > * {
+	margin: 0 2rem 0 2rem;
+}
+
 header {
 	background-color: lightcoral;
 }
