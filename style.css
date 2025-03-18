@@ -25,10 +25,6 @@ footer {
 	padding: 1rem 2rem 2rem 2rem;
 }
 
-i {
-	font-size: 32px;
-}
-
 .projects {
 	display: flex;
 	flex-wrap: wrap;
@@ -45,8 +41,23 @@ i {
 	width: 250px;
 }
 
-.project div {
+.project > div {
 	padding: 0 2rem 0 2rem;
+}
+
+.project-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-header .links {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.project-header img {
+	max-width: 24px;
 }
 
 .contact-info {
@@ -66,6 +77,10 @@ i {
 .social {
 	display: flex;
 	gap: 2rem;
+}
+
+.social img {
+	width: 32px;
 }
 
 @media (max-width: 595px) {
