@@ -122,9 +122,6 @@ footer {
 	width: 32px;
 }
 
-@media (max-width: 877px) {
-}
-
 @media (max-width: 595px) {
 	/* Mobile */
 	body {
