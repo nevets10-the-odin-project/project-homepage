@@ -120,8 +120,24 @@ footer {
 	width: 32px;
 }
 
+@media (max-width: 877px) {
+}
+
 @media (max-width: 595px) {
 	/* Mobile */
+	header {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.me {
+		max-width: 70vw;
+	}
+
+	.me h2 {
+		top: 15rem;
+	}
+
 	footer {
 		margin: 0;
 		padding: 0;
