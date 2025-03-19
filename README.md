@@ -20,3 +20,9 @@ Feel free to pick your own fonts and colors and use something other than a stock
 The main content - the 'My Work' section - seems to be the easiest. Flexbox or Grid should make that work with any screen size. The footer seems to be the next thing in difficulty with the placement of the image moving to be after the 'Contact me' portion. The header seems like it'll be the most difficult, with the name, image, and 'About me' sections being different in all three layouts.
 
 I like the suggestion of starting with the largest layout points first, getting the overall structure working and then getting more granular from there.
+
+---
+
+## Post-project review
+
+The only part of the page that I couldn't figure out was the text wrapping in the header of the tablet layout. I searched through several pages of examples online, double checked the CSS lessons, and even checked some other assignment submissions, but I couldn't get the text to wrap properly. The only way that seemed close was to use float: left, but that had no effect, despite me being able to recreate it in sandbox environments. None of the other submissions actually did it, either, so I guess I'm not alone.
