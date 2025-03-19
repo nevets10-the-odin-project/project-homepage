@@ -31,6 +31,10 @@ footer {
 	background-color: cornflowerblue;
 }
 
+p {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .me {
 	display: flex;
 	flex-direction: column;
